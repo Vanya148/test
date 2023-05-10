@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background: #ddd;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+
+    font-family: 'Inter';
+  }
+  
+  /*
+  .glass{
+    backdrop-filter: blur(9.2px);
+  }
+  */
+
+  .loginPanel{
+    box-sizing: border-box;
+
+    margin: 20%;
+    margin-top: 8%;
+
+    min-width: 400px;
+    min-height: 600px;
+
+    background: rgba(255, 255, 255, 0.17);
+    border: 1px solid rgba(255, 255, 255, 0.43);
+    border-radius: 25px;
+
+    backdrop-filter: blur(9.2px);
+  }
+
+  .loginPanel .header{
+    /* Header */
+    width: 212px;
+    height: 48px;
+
+    margin: 0 auto;
+    margin-top: 5%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #313131;
+
+    text-shadow: 0px 5px 10px rgba(22, 27, 29, 0.27);
+  }
+
+  form{
+    /*background: #8473735c;*/
+  }
+  
+  .inputGroup{
+    display: block;
+    width: 395px;
+    margin: 0 auto;
+  }
+
+  .inputGroup label{
+    display: block;
+    
+    margin-left: 12px;
+    margin-top: 25px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    
+    color: #313131;
+  }
+
+  form div{
+    display: block;
+    width: 395px;
+    margin: 0 auto;
+  }
+
+  .rememberMe{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  .rememberMe label{
+    position: relative;
+    width: 106px;
+    height: 14px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #FFFFFF;
+
+    top: -3.5px;;
+    
+    text-shadow: 0px 5px 10px #161B1D;
+  }
+
+  .rememberMe input[type=checkbox]{
+    box-sizing: border-box;
+
+    margin-left: 12px;
+
+    cursor: pointer;
+
+    width: 19px;
+    height: 19px;
+
+    background: rgba(217, 217, 217, 0.816);
+    opacity: 0.7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12.6px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 5px;
+  }
+
+  .inputGroup input{
+    display: block;
+    box-sizing: border-box;
+
+    width: 395px;
+    height: 80px;
+
+    margin: 0 0;
+
+    background: rgba(255, 255, 255, 0.49);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 5px 10px rgba(22, 27, 29, 0.27);
+    backdrop-filter: blur(12.6px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15px;
+  }
